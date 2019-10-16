@@ -1,0 +1,18 @@
+package bai3;
+
+public class tesst {
+	public static void main(String[] args) {
+		int a=3;
+		switch (a) {
+		case 3:
+			int c=3;
+			break ;
+		case 4:{
+			System.out.println(c);
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + a);
+		}
+	}
+
+}
